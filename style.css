@@ -100,6 +100,7 @@ img {
 
   #lezioni {
     text-align: center;
+    background-color: #F2F2CD
   }
 
   /* BLOCCO STEPS */
@@ -112,24 +113,35 @@ img {
 
   #steps {
     text-align: center;
+    background-color: #FFFFFF;
   }
 
   /* BLOCCO PERCHE */
   #why {
     text-align: center;
+    background-color: #F2F2CD;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 0;
+  }
+
+  #why .row h1{
+    margin-bottom: 0;
   }
 
   #why .row img {
     background-color: #428bca;
+    height: 45px;
     border-radius: 50%;
-    padding: 30px
+    padding: 20px;
+  }
+
+  hr{
+    margin-top: -1px;
   }
 
   /* COMMON */
@@ -160,6 +172,7 @@ img {
     margin-bottom: -3px;
 
   }
+
 
   .clear {
     clear: both;
