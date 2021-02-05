@@ -71,3 +71,9 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+  h3{
+    background-color: red;
+  }
+}
